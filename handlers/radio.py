@@ -7,8 +7,11 @@ import signal
 # noinspection PyPackageRequirements
 import ffmpeg  # pip install ffmpeg-python
 from pyrogram import Client, filters
-from pyrogram.types import Message
-from pytgcalls import GroupCall  # pip install pytgcalls
+from pyrogram.types import Message # pip install pytgcalls
+from pytgcalls import StreamType
+from pytgcalls.types.input_stream import InputAudioStream
+from pytgcalls.types.input_stream import InputStream
+
 
 from config import Config
 ADMIN=Config.SUDO_USERS
