@@ -12,8 +12,7 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 
-
-from config import Config
+from config import SUDO_USERS
 ADMIN=Config.SUDO_USERS
 
 # Example of pinned message in a chat:
