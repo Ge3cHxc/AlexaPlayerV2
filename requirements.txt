@@ -16,3 +16,4 @@ Pillow
 ujson
 wheel
 psutil
+pytgcalls
