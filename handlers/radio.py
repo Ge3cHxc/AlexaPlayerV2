@@ -11,7 +11,6 @@ from pyrogram.types import Message
 from pytgcalls import GroupCall  # pip install pytgcalls
 
 from config import Config
-CHAT_NAME=Config.CHAT_NAME
 ADMIN=Config.SUDO_USERS
 
 # Example of pinned message in a chat:
